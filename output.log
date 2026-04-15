@@ -1,0 +1,67 @@
+>  uv run python main.py --epochs 25
+Using device: cuda
+Train samples: 60,000, Test samples: 10,000
+
+===== DNN =====
+Trainable parameters: 235,146
+Epoch  1/25: train loss=0.3211, train acc=90.33% | test loss=0.1314, test acc=95.90%
+Epoch  2/25: train loss=0.1355, train acc=95.92% | test loss=0.0865, test acc=97.28%
+Epoch  3/25: train loss=0.1010, train acc=96.96% | test loss=0.0791, test acc=97.63%
+Epoch  4/25: train loss=0.0825, train acc=97.49% | test loss=0.0721, test acc=97.75%
+Epoch  5/25: train loss=0.0683, train acc=97.79% | test loss=0.0677, test acc=98.00%
+Epoch  6/25: train loss=0.0597, train acc=98.05% | test loss=0.0663, test acc=98.06%
+Epoch  7/25: train loss=0.0547, train acc=98.19% | test loss=0.0658, test acc=98.01%
+Epoch  8/25: train loss=0.0483, train acc=98.41% | test loss=0.0611, test acc=98.17%
+Epoch  9/25: train loss=0.0460, train acc=98.45% | test loss=0.0707, test acc=98.02%
+Epoch 10/25: train loss=0.0412, train acc=98.60% | test loss=0.0720, test acc=98.02%
+Epoch 11/25: train loss=0.0397, train acc=98.67% | test loss=0.0723, test acc=98.10%
+Epoch 12/25: train loss=0.0354, train acc=98.88% | test loss=0.0639, test acc=98.36%
+Epoch 13/25: train loss=0.0352, train acc=98.88% | test loss=0.0735, test acc=98.15%
+Epoch 14/25: train loss=0.0371, train acc=98.78% | test loss=0.0667, test acc=98.21%
+Epoch 15/25: train loss=0.0301, train acc=98.98% | test loss=0.0631, test acc=98.27%
+Epoch 16/25: train loss=0.0308, train acc=98.98% | test loss=0.0771, test acc=98.13%
+Epoch 17/25: train loss=0.0266, train acc=99.10% | test loss=0.0749, test acc=98.19%
+Epoch 18/25: train loss=0.0296, train acc=99.05% | test loss=0.0677, test acc=98.23%
+Epoch 19/25: train loss=0.0276, train acc=99.08% | test loss=0.0810, test acc=98.23%
+Epoch 20/25: train loss=0.0265, train acc=99.11% | test loss=0.0765, test acc=98.19%
+Epoch 21/25: train loss=0.0249, train acc=99.14% | test loss=0.0814, test acc=98.29%
+Epoch 22/25: train loss=0.0261, train acc=99.15% | test loss=0.0778, test acc=98.28%
+Epoch 23/25: train loss=0.0242, train acc=99.23% | test loss=0.0887, test acc=98.09%
+Epoch 24/25: train loss=0.0245, train acc=99.18% | test loss=0.0749, test acc=98.42%
+Epoch 25/25: train loss=0.0225, train acc=99.25% | test loss=0.0725, test acc=98.32%
+
+===== CNN =====
+Trainable parameters: 421,642
+Epoch  1/25: train loss=0.2108, train acc=93.57% | test loss=0.0485, test acc=98.35%
+Epoch  2/25: train loss=0.0633, train acc=98.08% | test loss=0.0328, test acc=98.83%
+Epoch  3/25: train loss=0.0462, train acc=98.61% | test loss=0.0317, test acc=98.98%
+Epoch  4/25: train loss=0.0366, train acc=98.88% | test loss=0.0328, test acc=98.89%
+Epoch  5/25: train loss=0.0291, train acc=99.09% | test loss=0.0251, test acc=99.10%
+Epoch  6/25: train loss=0.0260, train acc=99.12% | test loss=0.0268, test acc=99.17%
+Epoch  7/25: train loss=0.0210, train acc=99.29% | test loss=0.0236, test acc=99.23%
+Epoch  8/25: train loss=0.0190, train acc=99.39% | test loss=0.0231, test acc=99.22%
+Epoch  9/25: train loss=0.0166, train acc=99.49% | test loss=0.0260, test acc=99.33%
+Epoch 10/25: train loss=0.0152, train acc=99.47% | test loss=0.0313, test acc=99.15%
+Epoch 11/25: train loss=0.0136, train acc=99.53% | test loss=0.0281, test acc=99.23%
+Epoch 12/25: train loss=0.0109, train acc=99.63% | test loss=0.0280, test acc=99.27%
+Epoch 13/25: train loss=0.0119, train acc=99.58% | test loss=0.0296, test acc=99.22%
+Epoch 14/25: train loss=0.0105, train acc=99.63% | test loss=0.0240, test acc=99.31%
+Epoch 15/25: train loss=0.0093, train acc=99.69% | test loss=0.0261, test acc=99.39%
+Epoch 16/25: train loss=0.0084, train acc=99.69% | test loss=0.0309, test acc=99.26%
+Epoch 17/25: train loss=0.0082, train acc=99.73% | test loss=0.0321, test acc=99.22%
+Epoch 18/25: train loss=0.0087, train acc=99.70% | test loss=0.0315, test acc=99.32%
+Epoch 19/25: train loss=0.0080, train acc=99.73% | test loss=0.0278, test acc=99.36%
+Epoch 20/25: train loss=0.0068, train acc=99.75% | test loss=0.0285, test acc=99.32%
+Epoch 21/25: train loss=0.0051, train acc=99.84% | test loss=0.0362, test acc=99.33%
+Epoch 22/25: train loss=0.0058, train acc=99.80% | test loss=0.0386, test acc=99.12%
+Epoch 23/25: train loss=0.0079, train acc=99.73% | test loss=0.0378, test acc=99.29%
+Epoch 24/25: train loss=0.0047, train acc=99.86% | test loss=0.0313, test acc=99.37%
+Epoch 25/25: train loss=0.0068, train acc=99.75% | test loss=0.0347, test acc=99.26%
+
+===== Quantitative Comparison =====
+DNN: best test acc=98.42%, params=235,146, time=51.47s
+CNN: best test acc=99.39%, params=421,642, time=52.75s
+Delta (CNN - DNN): acc=0.97%, time=1.28s, param ratio=1.793
+Saved chart: charts/loss_curves.png
+Saved chart: charts/accuracy_curves.png
+Saved results to results.json
