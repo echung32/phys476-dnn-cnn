@@ -2,11 +2,11 @@
 
 ## 1. Experiment Setup
 
-* **Dataset:** MNIST (full training and test sets)
+* **Dataset:** MNIST (50,000 train / 10,000 test)
 * **Epochs:** 25
 * **Batch Size:** 128
 * **Optimizer:** Adam (learning rate = 0.001)
-* **Device:** CUDA (GPU acceleration)
+* **Device:** CUDA
 
 ---
 
