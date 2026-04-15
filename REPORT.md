@@ -107,7 +107,7 @@ The loss curves further reinforce these observations. The CNN’s training and t
 
 In terms of generalization, the CNN demonstrates a smaller train-test gap (~0.49%) compared to the DNN (~0.93%). This smaller gap indicates that the CNN generalizes better to unseen data. Overall, the training behavior suggests that the CNN not only achieves higher performance but also learns more robust and transferable representations. I would assume that this difference in robustness would become larger with a more difficult dataset, as MNIST is very simple. 
 
-You can also see the training log in `./output.log`. 
+You can also see the training log in [`output.log`](./output.log). 
 
 ---
 
